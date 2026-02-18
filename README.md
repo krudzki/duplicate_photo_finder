@@ -38,7 +38,7 @@ A powerful Python tool to find and manage duplicate photos and videos on your sy
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/duplicate-photo-finder.git
+git clone https://github.com/krudzki/duplicate_photo_finder.git
 cd duplicate-photo-finder
 
 # Install dependencies
