@@ -13,12 +13,12 @@ long_description = (this_directory / "README.md").read_text(encoding='utf-8')
 setup(
     name='duplicate-photo-finder',
     version='1.0.0',
-    author='Your Name',
-    author_email='your.email@example.com',
+    author='Krzysztof Rudzki',
+    author_email='krudzki.dev@gmail.com',
     description='A powerful tool to find and manage duplicate photos and videos',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/yourusername/duplicate-photo-finder',
+    url='https://github.com/krudzki/duplicate_photo_finder',
     py_modules=['duplicate_finder'],
     python_requires='>=3.8',
     install_requires=[
@@ -39,7 +39,7 @@ setup(
     ],
     keywords='photos videos duplicates cleanup management',
     project_urls={
-        'Bug Reports': 'https://github.com/yourusername/duplicate-photo-finder/issues',
-        'Source': 'https://github.com/yourusername/duplicate-photo-finder',
+        'Bug Reports': 'https://github.com/krudzki/duplicate_photo_finder/issues',
+        'Source': 'https://github.com/krudzki/duplicate_photo_finder',
     },
 )
