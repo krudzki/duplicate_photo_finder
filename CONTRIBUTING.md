@@ -47,7 +47,7 @@ Enhancement suggestions are tracked as GitHub issues. When creating an enhanceme
 
 ```bash
 # Clone your fork
-git clone https://github.com/your-username/duplicate-photo-finder.git
+git clone https://github.com/krudzki/duplicate_photo_finder.git
 cd duplicate-photo-finder
 
 # Create virtual environment
