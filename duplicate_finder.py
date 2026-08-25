@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
+r"""
 Script for finding and moving duplicate photos/videos.
 Preserves the best quality, protects folder D:\Zdjęcia (W)
 """
@@ -73,7 +73,8 @@ class DuplicateFinder:
     def is_in_protected_folder(self, filepath):
         """Check if file is in protected folder"""
         try:
-            return Path(filepath).is_relative_to(PROTECTED_FOLDER)
+            protected_folder = getattr(self, "PROTECTED_FOLDER", PROTECTED_FOLDER)
+            return Path(filepath).is_relative_to(protected_folder)
         except:
             return False
     
